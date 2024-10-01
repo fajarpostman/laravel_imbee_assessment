@@ -3,6 +3,7 @@
 1. Run composer install to run the project
 2. Import database
 3. Copy .env file to the project
+4. Copy firebase-credentials.json to directory
 
 ## Setup RabbitMQ
 1. Create queue on RabbitMQ "notification.fcm"
@@ -11,6 +12,9 @@
 ## Run the project
 1. Run the RabbitMQ and Web-Server (you can use xampp or ther webserver)
 2. Consume message on terimal type: "php artisan consume:notifications"
+
+## Android Repository
+https://github.com/fajarpostman/imbee_assessment_android.git
 
 ## Simulate on Postmant
 - Publish Message:
